@@ -1,0 +1,45 @@
+:root {
+  --black: #171321;
+  --white: #f7f8fa;
+  --radioactiveEggplant: #f20574;
+  --mademoisellePink: #f205cb;
+  --darkMatter: #0d0259;
+  --ultramarineShadow: #0b0340;
+  --maniacMansion: #024059;
+  --font-size: 1.3rem;
+  --mono: "IBM Plex Mono", monospace;
+  --sans: "IBM Plex Sans", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--sans);
+  background-color: var(--black);
+  color: var(--white);
+  font-size: var(--font-size);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+/* Links */
+a {
+  color: var(--radioactiveEggplant);
+}
+a:hover {
+  color: var(--mademoisellePink);
+  text-decoration: none;
+}
